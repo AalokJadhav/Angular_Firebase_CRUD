@@ -1,0 +1,18 @@
+<h5 class="text-center">Register Employee List</h5>
+<br>
+<div class="jumbotron">
+<table class="table table-sm table-hover">
+  <tr *ngFor="let employee of employeeList">
+    <td>{{employee.name}}</td>
+    <td>{{employee.position}}</td>
+    <td>
+      <a class="btn" (click)="onEdit(employee)">
+          <i class="fa fa-pencil-square-o" style="color:green"></i>
+              </a>
+      <a class="btn" (click)="onDelete(employee.$key)" style="color:red">
+          <i class="fa fa-trash-o"></i>
+      </a>
+    </td>
+  </tr>
+</table>
+</div>

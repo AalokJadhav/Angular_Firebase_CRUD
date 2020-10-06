@@ -1,0 +1,39 @@
+<div class="jumbotron">
+<form #employeeForm="ngForm" (ngSubmit)="onSubmit(employeeForm)">
+  <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="employeeService.selectedEmployee.$key">
+  <div class="form-group, text-left">
+    <label><b>Name :</b></label>
+    <input class="form-control" name="name" #name="ngModel" [ngModel]="employeeService.selectedEmployee.name" placeholder="FullName" required>
+  </div>
+  <div class="form-group, text-left">
+    <label><b>Position :</b></label>
+    <input class="form-control" name="position" #position="ngModel" [ngModel]="employeeService.selectedEmployee.position"
+      placeholder="Position">
+  </div>
+  <div class="form-group, text-left">
+    <label><b>Office :</b></label>
+    <input class="form-control" name="office" #office="ngModel" [ngModel]="employeeService.selectedEmployee.office" placeholder="Office">
+  </div>
+  <div class="form-group, text-left">
+    <label><b>Salary :</b></label>
+    <div class="input-group input-group-lg">
+      <span class="input-group-addon">
+        <i class="fa fa-usd"></i>
+      </span>
+      <input class="form-control" name="salary" #salary="ngModel" [ngModel]="employeeService.selectedEmployee.salary"
+        placeholder="salary">
+
+    </div>
+  </div>
+  <br>
+  <div class="form-group">
+    <button class="btn btn-success" type="submit" [disabled]=!employeeForm.valid >
+        <i class="fa fa-floppy-o"></i>
+              Submit</button>&nbsp;&nbsp;&nbsp;
+    <button class="btn btn-success" type="submit" (click)="resetForm(employeeForm)">
+        <i class="fa fa-repeat"></i>  
+            Reset</button>
+
+  </div>
+  </form>
+</div>
