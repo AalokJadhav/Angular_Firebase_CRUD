@@ -1,6 +1,20 @@
-# Firebasecrud
+##  [Angular](https://angular.io/docs) [Firebase](https://firebase.google.com/docs?authuser=0) CRUD
 
+***
+
+This project is part of an Angular tutorial where we explore how to perform all CRUD operations in an Angular 7 application using cloud FireStore as a database.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
+
+**Please support this project by simply putting a Github star ⭐. 🙏 Thanks**
+
+## Development environment
+
+    # Angular CLI
+
+
+## Installation
+
+Run `npm install` to install all the required dependencies
 
 ## Development server
 
@@ -25,3 +39,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Setting up Firebase
+Follow above Link [FireBase](https://firebase.google.com/docs/firestore/quickstart)
+
+## Project functionality
