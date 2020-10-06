@@ -52,6 +52,8 @@ Follow above Link [FireBase](https://firebase.google.com/docs/firestore/quicksta
 ## Project functionality
 
 #### Components
+    * Show Dishes: 
+      * See previously added dishes.
    * employees:
               * Employee Register Banner.
 
