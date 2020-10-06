@@ -65,4 +65,23 @@ Follow above Link [FireBase](https://firebase.google.com/docs/firestore/quicksta
    * Delete Employe From List.
 
    
-#### Components
+#### Model
+
+* Employee {
+
+    $key: string;
+    name: string;
+    position: string;
+    office: string;
+    salary: number;
+}
+
+#### Service
+
+* EmployeeService
+
+#### Toaster
+
+* ngx-Toastr
+
+#### FireBase Project
