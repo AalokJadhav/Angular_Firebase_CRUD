@@ -9,13 +9,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development environment
 
-    * Angular CLI
-    * Angular 5
-    * Firebase project
-    * Firebase and AngularFire2 (npm packages)
-    * ngx-Toastr (npm package)
-    * Bootstrap and Font-Awesome Icons
-    * VS Code Editor
+    1. Angular CLI
+    2. Angular 5
+    3. Firebase project
+    4. Firebase and AngularFire2 (npm packages)
+    5. ngx-Toastr (npm package)
+    6. Bootstrap and Font-Awesome Icons
+    7. VS Code Editor
 
 
 ## Installation
