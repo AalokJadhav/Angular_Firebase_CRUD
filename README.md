@@ -52,18 +52,17 @@ Follow above Link [FireBase](https://firebase.google.com/docs/firestore/quicksta
 ## Project functionality
 
 #### Components
-    * Show Dishes: 
-      * See previously added dishes.
-   * employees:
-              * Employee Register Banner.
 
-   * employee:
-               * Employee Register Form.
+* employees:
+  * Employee Register Banner.
 
-   *employee-list:
-                 * Employee Register List.
-                 * Edit Employee Details.
-                 * Delete Employe From List.
+* employee:
+  * Employee Register Form.
+
+* employee-list:
+   * Employee Register List.
+     * Edit Employee Details.
+      * Delete Employe From List.
 
    
 #### Components
