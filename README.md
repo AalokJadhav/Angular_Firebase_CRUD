@@ -53,16 +53,16 @@ Follow above Link [FireBase](https://firebase.google.com/docs/firestore/quicksta
 
 #### Components
 
-* employees:
+* employees :
   * Employee Register Banner.
 
-* employee:
+* employee :
   * Employee Register Form.
 
-* employee-list:
+* employee-list :
    * Employee Register List.
-     * Edit Employee Details.
-      * Delete Employe From List.
+   * Edit Employee Details.
+   * Delete Employe From List.
 
    
 #### Components
