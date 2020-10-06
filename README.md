@@ -50,3 +50,18 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Follow above Link [FireBase](https://firebase.google.com/docs/firestore/quickstart)
 
 ## Project functionality
+
+#### Components
+   * employees:
+              * Employee Register Banner.
+
+   * employee:
+               * Employee Register Form.
+
+   *employee-list:
+                 * Employee Register List.
+                 * Edit Employee Details.
+                 * Delete Employe From List.
+
+   
+#### Components
